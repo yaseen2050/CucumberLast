@@ -1,6 +1,6 @@
 def buildStatus    = "FAILED"
 def slackColor     = "warning"
-def slackChannelID = 'C03NE82PLMQ'
+def slackChannelID = 'D03LPSW6M9S'
 
 pipeline {
   agent any
