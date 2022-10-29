@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
        // tags= "", // when we tag our scenario and just run it
         dryRun = false, //This is to get undefined steps without opening up browser  when u use TRUE it will
         // gie us steps to generate and always important
-        plugin = {
+        plugin = {  //plugin important
                 "pretty",
                 "rerun:target/rerun.txt",
 
