@@ -9,3 +9,10 @@ Feature: Fill out Conctact us form
     |Sheetname| RowNumber|
     |contactus|     0         |
     |contactus |    1    |
+
+    @TCDENEME
+    Scenario: Contact us scenario with different set of d
+      Given user navigates to contact us website
+      When User fills the form given sheetName "<Strs>" and rowNumber "<row>"
+      Then user clicks Send Button
+

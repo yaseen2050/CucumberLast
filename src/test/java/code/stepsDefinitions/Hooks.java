@@ -20,7 +20,6 @@ public class Hooks extends BrowserUtils {
         Driver.getDriver().manage().window().maximize();
 
 
-
     }
 
 
