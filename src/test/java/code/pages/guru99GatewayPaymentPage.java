@@ -34,7 +34,7 @@ public class guru99GatewayPaymentPage extends BrowserUtils {
 
 
     public void setMonth(String Month) {
-        staticWait(1);
+        staticWait(2);
         selectFromDropDown(month, Month);
     }
 
